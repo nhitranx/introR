@@ -1,8 +1,10 @@
 ---
-title: "pre_exam_day"
+title: "pre-exam day"
 author: "Nhi Tran"
 date: "`r Sys.Date()`"
-output: html_document
+output: 
+  html_document:
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -12,8 +14,10 @@ knitr::opts_chunk$set(echo = TRUE)
 I'm **uncreative** so this is my *first* VC project in RStudio.
 Let's create a test stuff haha~
 
+## Summary
 ```{r cars}
-summary(cars)
+library(knitr)
+kable(summary(cars))
 ```
 
 ## Including Plots
@@ -21,6 +25,7 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r test-plot}
-plot(cars)
+plot(cars, col = 'powderblue', 
+     xlab = 'speed (mph)', ylab = 'distance (miles)')
 ```
 
