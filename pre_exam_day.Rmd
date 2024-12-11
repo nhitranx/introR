@@ -1,0 +1,26 @@
+---
+title: "pre_exam_day"
+author: "Nhi Tran"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I'm **uncreative** so this is my *first* VC project in RStudio.
+Let's create a test stuff haha~
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r test-plot}
+plot(cars)
+```
+
